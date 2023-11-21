@@ -84,10 +84,10 @@ em relação a média da turma (menor, maior ou igual à média). -->
                     listaNotas += `<tr class='table-danger text-center'><td>${notas[i]}</td><td class='text-center'>${comparacao} que a média</td></tr>`;
                 } else if (notas[i] > media) {
                     comparacao = "Maior";
-                    listaNotas += `<tr class='table-success text-center'><td>${notas[i]}</td><td class='text-center'>${comparacao} à média</td></tr>`;
+                    listaNotas += `<tr class='table-success text-center'><td>${notas[i]}</td><td class='text-center'>${comparacao} que a média</td></tr>`;
                 } else {
                     comparacao = "Igual";
-                    listaNotas += `<tr class='table-warning text-center'><td>${notas[i]}</td><td class='text-center'>${comparacao} que a média</td></tr>`;
+                    listaNotas += `<tr class='table-warning text-center'><td>${notas[i]}</td><td class='text-center'>${comparacao} à média</td></tr>`;
                 }
             }
 
